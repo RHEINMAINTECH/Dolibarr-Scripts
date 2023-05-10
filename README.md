@@ -8,7 +8,7 @@ The script first reads the Dolibarr configuration file to retrieve important con
 Next, the script downloads the latest Dolibarr release from GitHub, extracts it, and copies the new version files to the existing Dolibarr installation. If there is an install.lock file, it is removed to allow the upgrade process to complete. Finally, the script reports whether the upgrade process was successful and instructs the user to visit a URL to complete the upgrade process.
 
 Usage: 
-Add the script to your dolbarr-root (use /dolibarr not /dolibarr/htdocs)
+Add the script to your dolibarr-root (use /dolibarr not /dolibarr/htdocs)
 chmod +x update_dolibarr.sh
 ./update_dolibarr.sh
 
